@@ -3,6 +3,12 @@ public class Cat {
     private double height;
     private double weight;
 
+    public Cat(String name, double height, double weight) {
+        this.name = name;
+        this.height = height;
+        this.weight = weight;
+    }
+
     public String getName() {
         return name;
     }

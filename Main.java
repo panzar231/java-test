@@ -1,23 +1,31 @@
+import java.util.ArrayList;
+import java.util.Comparator;
 
 public class Main {
     public static void main(String[] args) {
-        Cat cat1 = new Cat();
-        Cat cat2 = new Cat();
-        Cat cat3 = new Cat();
+        Cat cat1 = new Cat("Obelix", 0.3, 4.9);
+        Cat cat3 = new Cat("Luci", 0.5, 8.9);
+        Cat cat2 = new Cat("Pipi", 0.32, 9.2);
 
-        cat1.setName("Obelix");
-        cat2.setName("Pipi");
-        cat3.setName("Luci");
+        ArrayList<Cat> catList = new ArrayList<>();
+        catList.add(cat1);
+        catList.add(cat2);
+        catList.add(cat3);
 
-        cat1.setHeight(0.3);
-        cat2.setHeight(0.32);
-        cat3.setHeight(0.5);
+        catList.sort(Comparator.comparing(c -> c.getHeight()));
 
-        cat1.setWeight(4.9);
-        cat2.setWeight(6.2);
-        cat3.setWeight(8.9);
+        printCats(catList);
 
-        System.out.println(cat1);
+        System.out.println();
 
+        catList.sort(Comparator.comparing(c -> c.getWeight()));
+
+        printCats(catList);
+    }
+
+    private static void printCats(ArrayList<Cat> catList) {
+        for (Cat cat : catList) {
+            System.out.println(cat);
+        }
     }
 }
