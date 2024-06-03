@@ -1,6 +1,6 @@
 package ErgasiaJava;
 
-import ErgasiaJava.PriceClassses.*;
+import ErgasiaJava.PriceClasses.*;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package ErgasiaJava;
+package ErgasiaJava.SportClasses;
 
 public class Facility {
     private String facilityName;

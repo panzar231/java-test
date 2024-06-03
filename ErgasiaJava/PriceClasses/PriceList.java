@@ -1,4 +1,4 @@
-package ErgasiaJava.PriceClassses;
+package ErgasiaJava.PriceClasses;
 
 public interface PriceList {
     double calculateTotalPrice();

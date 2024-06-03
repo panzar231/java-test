@@ -1,6 +1,4 @@
-package ErgasiaJava;
-
-import ErgasiaJava.PriceClassses.PriceList;
+package ErgasiaJava.PriceClasses;
 
 public class Enrollment implements PriceList {
     private int uniqueCode2;
