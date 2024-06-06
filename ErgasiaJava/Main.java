@@ -1,10 +1,10 @@
 package ErgasiaJava;
 
-import ErgasiaJava.PriceClasses.*;
+import ErgasiaJava.PriceClassses.*;
 
 public class Main {
 
     public static void main(String[] args) {
-
+    	Jframe mainWindow =new Jframe();
     }
 }

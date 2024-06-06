@@ -1,4 +1,4 @@
-package ErgasiaJava.PriceClasses;
+package ErgasiaJava.PriceClassses;
 
 public class Subscription implements PriceList {
     private int uniqueCode;

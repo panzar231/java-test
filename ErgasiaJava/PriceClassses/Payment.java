@@ -1,4 +1,4 @@
-package ErgasiaJava.PriceClasses;
+package ErgasiaJava.PriceClassses;
 
 public class Payment implements PriceList {
     private int uniqueCode3;
